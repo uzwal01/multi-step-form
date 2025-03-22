@@ -1,12 +1,16 @@
-# React + Vite
+# Multi-Step Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple multi-step form built with React using Vite, which allows users to input and navigate through different sections while maintaining data persistence between steps. This project is designed to capture **Personal Information**, **Employment Details**, and **Mailing Address**.
 
-Currently, two official plugins are available:
+## Features
+- **Step 1:** Personal Information (First Name, Last Name, Age, Gender, Phone Number)
+- **Step 2:** Employment Details (Company Name, Address, Job Title)
+- **Step 3:** Mailing Address (Province, District, Municipality, Street Address)
+- Form data persists across steps, providing a seamless user experience.
+- Age input prevents negative numbers.
+- Option to go back to previous steps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React.js
+- Vite
+- JavaScript
